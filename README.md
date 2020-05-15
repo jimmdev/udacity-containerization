@@ -47,4 +47,4 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 
 ### Connection to circle CI
 
- * The project is linked to Circle CI, configuration can be seen in `Dockerfile`
+ * The project is linked to Circle CI, configuration can be seen in `.circleci/config.yaml`
