@@ -26,7 +26,7 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 ## Setup the Environment
 
 * Create a virtualenv and activate it
-* Run `make install` to install the necessary dependencies
+* Run `make install` to install the necessary dependencies given in the `requirements.txt`
 
 ### Running `app.py`
 
@@ -38,5 +38,13 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 
 * Setup and Configure Docker locally
 * Setup and Configure Kubernetes locally
-* Create Flask app in Container
+* Create Flask app in Container using the provided `Dockerfile`
 * Run via kubectl
+
+### Test setup
+
+ * Test your setup by making a sample call by running: `make_prediction.py`
+
+### Connection to circle CI
+
+ * The project is linked to Circle CI, configuration can be seen in `Dockerfile`
